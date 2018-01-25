@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.bigDiv {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 400px;
+    height: 400px;
+    background: pink;
+    color: #fff;
+}
+
+ul {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: pink;
+    border-bottom: 1px #fff solid;
+}
+
+ul>li {
+    float: left;
+    width: 33.3%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+ol {
+    width: 400px;
+    height: 350px;
+    overflow: hidden;
+}
+
+ol>li {
+    width: 400px;
+    height: 350px;
+    text-align: center;
+    line-height: 350px;
+    background: lightblue;
+}
+
+.bg {
+    background: lightblue;
+}
